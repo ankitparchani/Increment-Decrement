@@ -18,7 +18,7 @@ componentDidMount() {
     .then((response) => response.json())
     .then((json) => {
       var ListAll = [];
-      for ( let i=0 ; i < json.length; i++) {
+      for ( let i=0 ; i < 2; i++) {
         let singleItem = {name: json[i], quantity:0}
         ListAll.push(singleItem)
       }
